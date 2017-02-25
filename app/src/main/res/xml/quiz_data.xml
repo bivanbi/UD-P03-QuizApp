@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quizquestions>
+    <quizquestion>
+        <header_image_src>washington_dc</header_image_src>
+        <question>What is the Capital of U.S.A.?</question>
+        <input_type>Radio</input_type>
+
+        <answer correct="false">New York City</answer>
+        <answer correct="true">Washington D.C.</answer>
+        <answer correct="false">Chicago</answer>
+        <answer correct="false">Philadelphia</answer>
+    </quizquestion>
+
+    <quizquestion>
+        <header_image_src>vincent_van_gogh</header_image_src>
+        <question>What is the family name of the famous dutch painter Vincent Willem van .... ?
+        </question>
+        <input_type>EditText</input_type>
+        <answer correct="true">Gogh</answer>
+    </quizquestion>
+
+    <quizquestion>
+        <header_image_src>x_times_x</header_image_src>
+        <question>What number do you need to multiply by itself to get a product of 4?</question>
+        <input_type>Checkbox</input_type>
+        <answer correct="true">2</answer>
+        <answer correct="false">4</answer>
+        <answer correct="true">-2</answer>
+        <answer correct="false">1</answer>
+    </quizquestion>
+
+    <quizquestion>
+        <header_image_src>harry_truman</header_image_src>
+        <question>Who was the president of the U.S. who ordered atomic bomb dropped on Japan?
+        </question>
+        <input_type>Radio</input_type>
+        <answer correct="false">Ronald Reagan</answer>
+        <answer correct="false">Dwight D. Eisenhower</answer>
+        <answer correct="false">Franklin D. Roosevelt</answer>
+        <answer correct="true">Harry S. Truman</answer>
+    </quizquestion>
+
+    <quizquestion>
+        <header_image_src>pennsylvania</header_image_src>
+        <question>In which state did George Washington spend winter at Valley Forge?</question>
+        <input_type>EditText</input_type>
+        <answer correct="true">Pennsylvania</answer>
+    </quizquestion>
+
+</quizquestions>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/QuizHeaderContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/quizHeaderImageView"
+        android:layout_width="@dimen/quiz_header_picture_size"
+        android:layout_height="@dimen/quiz_header_picture_size"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/washington_dc" />
+
+    <TextView
+        android:id="@+id/quizQuestionTextView"
+        style="@style/QuizQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="How much wood would a woodchuck chuck if a woodchuck would chuck wood" />
+</LinearLayout>

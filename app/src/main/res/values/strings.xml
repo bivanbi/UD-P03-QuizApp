@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P03.QuizApp</string>
+    <string name="check_answer_button">Check</string>
+    <string name="how_to_use">Answer the questions to your best, then click the button at the bottom right of your screen to get your score. Long click will reset quiz.</string>
+    <string name="check_all_answer_that_apply">Check all answer that apply</string>
+    <string name="pick_one_answer">Pick one answer</string>
+    <string name="enter_your_answer">Enter your answer below</string>
+    <string name="input_edittext_hint">Your answer</string>
+</resources>

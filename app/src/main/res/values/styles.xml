@@ -1,0 +1,72 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HorizontalDivider">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="CheckInputButton">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_width">@dimen/check_input_button_size</item>
+        <item name="android:layout_height">@dimen/check_input_button_size</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginRight">@dimen/check_input_button_margin</item>
+        <item name="android:layout_marginBottom">@dimen/check_input_button_margin</item>
+        <item name="android:padding">@dimen/check_input_button_padding</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:alpha">0.25</item>
+    </style>
+
+    <style name="howto">
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/quiz_howto_text_size</item>
+    </style>
+
+    <style name="QuizCointainer">
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="QuizHeaderContainer">
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="QuizQuestion">
+        <item name="android:textSize">@dimen/quiz_question_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/quiz_question_horizontal_margin</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="QuizQuestionNoImage">
+    </style>
+
+    <style name="QuizInputInstruction">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="QuizInputEditText">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="QuizInputCheckBox">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="QuizInputRadioButton">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+</resources>
