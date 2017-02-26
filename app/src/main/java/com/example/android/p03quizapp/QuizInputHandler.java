@@ -9,10 +9,10 @@ import java.util.ArrayList;
  *
  * Creating interface and different implementation for each input type might be overkill for a
  * small project such as this, but it is important to get familiar with the basic idea and this
- * is a good opportunity, sow here we go.
+ * is a good opportunity, so here we go.
  */
 
-public interface QuizInputHandler {
+interface QuizInputHandler {
     /**
      * method to get an ArrayList of Strings of the actual answers given by the user by means of
      *  editing a text field (EditText)
